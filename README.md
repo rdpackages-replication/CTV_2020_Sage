@@ -6,7 +6,7 @@ This work was supported in part by the National Science Foundation through grant
 
 https://rdpackages.github.io/replication
 
-## Empirical Application: Head Start Data
+## Empirical Application: Head Start Data 
 
 - Source: Klašnja and Titiunik (2017): [The Incumbency Curse: Weak Parties, Term Limits, and Unfulfilled Accountability](https://doi.org/10.1017/S0003055416000575), _American Political Science Review_ 111(1): 129-148.
 
