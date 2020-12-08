@@ -1,4 +1,4 @@
-# Cattaneo, Titiunik and Vazquez-Bare (2017, JPAM)
+# Cattaneo, Titiunik and Vazquez-Bare (2020, Sage)
 
 This work was supported in part by the National Science Foundation through grants [SES-1357561](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1357561) and [SES-1459931](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1459931).
 
