@@ -1,14 +1,14 @@
 ********************************************************************************
 ** The Regression Discontinuity Design -- Re-analysis of Klasnja Titiunik (2017)
 ** Authors: Matias D. Cattaneo, Rocio Titiunik and Gonzalo Vazquez-Bare
-** Last update: 21-AGO-2020
+** Last update: 23-FEB-2021
 ********************************************************************************
-** SOFTWARE WEBSITE: https://rdpackages.github.io/
+** SOFTWARE WEBSITE: https://sites.google.com/site/rdpackages/
 ********************************************************************************
 ** TO INSTALL STATA PACKAGES:
-** RDROBUST: net install rdrobust, from(https://raw.githubusercontent.com/rdpackages/rdrobust/master/stata) replace
-** RDDENSITY: net install rdlocrand, from(https://raw.githubusercontent.com/rdpackages/rdlocrand/master/stata) replace
-** RDLOCRAND: net install rddensity, from(https://raw.githubusercontent.com/rdpackages/rddensity/master/stata) replace
+** RDROBUST: net install rdrobust, from(https://sites.google.com/site/rdpackages/rdrobust/stata) replace
+** RDDENSITY: net install rddensity, from(https://sites.google.com/site/rdpackages/rddensity/stata) replace
+** RDLOCRAND: net install rdlocrand, from(https://sites.google.com/site/rdpackages/rdlocrand/stata) replace
 ********************************************************************************
 * Score:   mv_incparty (margin of victory of incumbent party at t)
 * Outcome: indicator for victory of incumbent party at t+1 

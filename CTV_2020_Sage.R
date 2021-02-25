@@ -1,9 +1,9 @@
 ################################################################################
 ## The Regression Discontinuity Design -- Re-analysis of Klasnja-Titiunik (2017)
 ## Authors: Matias Cattaneo, Rocio Titiunik, Gonzalo Vazquez-Bare
-## Last update: 21-AGO-2020
+## Last update: 23-FEB-2021
 ################################################################################
-## SOFTWARE WEBSITE: https://rdpackages.github.io/
+## SOFTWARE WEBSITE: https://sites.google.com/site/rdpackages/
 ################################################################################
 ## TO INSTALL/DOWNLOAD R PACKAGES/FUNCTIONS:
 ## RDROBUST: install.packages('rdrobust')
