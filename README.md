@@ -12,6 +12,8 @@ https://rdpackages.github.io/replication
 
 - Dataset: [csv](CTV_2020_Sage.csv) | [dta](CTV_2020_Sage.dta)
 
+- Python implementation: [main](CTV_2020_Sage.py)
+
 - R implementation: [main](CTV_2020_Sage.R)
 
 - Stata implementation: [main](CTV_2020_Sage.do)
