@@ -1,7 +1,7 @@
 ################################################################################
 ## The Regression Discontinuity Design -- Re-analysis of Klasnja-Titiunik (2017)
 ## Authors: Matias Cattaneo, Rocio Titiunik, Gonzalo Vazquez-Bare
-## Python code created by Ricardo Masini
+## Python code created by Ricardo Masini and Rajita Chandak
 ## Last update: 26-JUL-2021
 ################################################################################
 ## SOFTWARE WEBSITE: https://rdpackages.github.io/
@@ -26,6 +26,7 @@
 ################################################################################
 
 from rdrobust import rdrobust,rdplot
+from rddensity import rddensity, rdplotdensity
 import pandas  as pd
 
 
@@ -46,10 +47,10 @@ covsnm = ["GDP per capita", "Population", "No. Effective Parties", "DEM Victory 
 # Falsification analysis 
 #################################
 
-#rddens <- rddensity(X)
-#summary(rddens)
-#rdplotdensity(rddens, X = data$mv_incparty[!is.na(data$mv_incparty)], 
-#              xlab = "Incumbent Party's Margin of Victory at t", ylab = "Estimated density")
+rddens = rddensity(X.dropna())
+print(repr(rddens))
+plt = rdplotdensity(rddens, X = data['mv_incparty'].dropna(), xlabel = "Incumbent Party's Margin of Victory at t", ylabel = "Estimated density")
+print(plt)
 
 for c in range(covs.shape[1]):
     print(rdrobust(covs.iloc[:,c],X))
