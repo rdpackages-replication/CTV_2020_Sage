@@ -82,7 +82,7 @@ print(rdrcovs)
 
 # Local randomization approach
 
-#rdwin <- rdwinselect(X,covs,wmin=0.05,wstep=0.01,nwindows=200,seed=765,plot=TRUE,quietly=TRUE)
-#w <- 0.15
+rdwin = rdwinselect(R=X,X=covs,wmin=0.05,wstep=0.01,nwindows=200,seed=765,plot=True,quietly=True)
 
-#rdrand <- rdrandinf(Y,X,wl=-w,wr=w,reps=1000,seed=765)
+w = 0.15
+rdrand = rdrandinf(Y,X,wl=-w,wr=w,reps=1000,seed=765)
